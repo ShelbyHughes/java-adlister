@@ -14,6 +14,7 @@ public class MySQLAdsDao implements Ads {
         for (Ad ad : testArray) {
             System.out.println(ad.getId());
         }
+
         Ad testAd = new Ad(60, 2, "Django Chained", "McDonalds");
         long test = testDao.insert(testAd);
     }
