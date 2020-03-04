@@ -10,6 +10,7 @@
 
     <div class="container">
         <h1>Viewing your profile.</h1>
+        <h2>Welcome <%= request.getSession().getAttribute("user")%>!</h2>
     </div>
 
 </body>
